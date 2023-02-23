@@ -2,7 +2,7 @@ const router = require("express").Router();
 const db = require("../database/db"); // this is our db connection
 const { formatData } = require("../Utils/helpers");
 
-// table name that store quiz_Taken data
+// table name that store answer data
 const table = 'Answers';
 
 /*
