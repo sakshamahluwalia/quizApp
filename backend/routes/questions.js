@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const db = require("../database/db"); // this is our db connection
 
-// table name that store quiz_Taken data
+// table name that store question data
 const table = 'Questions';
 
 /*
